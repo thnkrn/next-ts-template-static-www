@@ -1,6 +1,10 @@
-# Next.js Template - Targeted for client-side
+# Next.js Template - Targeted for Static website
 
-The main aim of this template is to be able to start on **Client-side** only website as quick as possible with great DX.
+The main aim of this template is to be able to start on Static website
+
+Since Next.JS Image component not suppor the static website on next export, I'm using the [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images) with [react-optimized-image](https://www.npmjs.com/package/react-optimized-image) to be our image component instead
+
+Moreover, on the custom image component, I'm integrate the reserving a space feature to help the UX.
 
 ## Template Structure
 
