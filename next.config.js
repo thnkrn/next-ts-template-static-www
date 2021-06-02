@@ -19,7 +19,7 @@ if (process.env.ANALYZE === 'true') {
   )
 }
 
-const basePath = process.env.NODE_ENV === 'production' ? '/welcome' : ''
+const basePath = process.env.NODE_ENV === 'production' ? '/homepage' : ''
 
 const nextConfig = {
   assetPrefix: basePath,
